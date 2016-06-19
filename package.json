@@ -1,0 +1,89 @@
+{
+  "name": "react-chart-sample",
+  "version": "0.0.1",
+  "description": "React template.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server -d --progress --colors --display-error-details",
+    "build": "NODE_ENV=production node_modules/.bin/webpack -p --progress --colors --display-error-details",
+    "test": "BABEL_JEST_STAGE=0 jest",
+    "lint": "eslint app/**"
+  },
+  "keywords": {
+    "keywords": [
+      "react",
+      "reactjs",
+      "react.js",
+      "flux",
+      "flux-utils",
+      "jest",
+      "immutable",
+      "immutable.js",
+      "react-router",
+      "material-ui",
+      "axios",
+      "es6",
+      "es7",
+      "es2015",
+      "es2016",
+      "stage-0",
+      "babel",
+      "eslint",
+      "webpack",
+      "react-component"
+    ]
+  },
+  "author": "Sokichi Fujita <dimension.sf@gmail.com> (https://github.com/SokichiFujita)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://example.com"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils"
+    ],
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-jest": "^12.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-react": "^5.1.1",
+    "jest-cli": "^12.1.1",
+    "react-addons-css-transition-group": "^15.1.0",
+    "react-addons-perf": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "axios": "^0.12.0",
+    "flux": "^2.1.1",
+    "immutable": "^3.8.1",
+    "material-ui": "https://github.com/callemall/material-ui.git",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "react-utils": "^1.0.0",
+    "victory": "^0.9.0"
+  }
+}
